@@ -1,0 +1,14 @@
+{# app/Resources/views/lucky/luckybase.html.twig #}
+
+{% extends 'base.html.twig' %}
+
+{% block title %}
+Lucky Numbers!
+{% endblock %}
+
+{% block sidebar %}
+
+{{parent()}}
+
+{{ include('lucky/luckysidebar.html.twig') }}
+{% endblock %}

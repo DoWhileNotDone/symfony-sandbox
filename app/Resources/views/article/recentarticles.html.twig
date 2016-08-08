@@ -1,0 +1,14 @@
+{# app/Resources/views/article/recentarticles.html.twig #}
+
+XXCCCXX
+
+<div id='sidebar articles'>
+
+<ul>
+{% for article in articleList %}
+<li><a href="/article">
+{{ article | upper }}
+</a>
+{% endfor %}
+</ul>
+</div>
